@@ -1,0 +1,27 @@
+middle_value = grid [1][1]
+  print(middle_value)
+  row = 0
+  col = 0 
+  bombs = 0
+  value = 0
+  
+  while row < 3: 
+    while col < 3: 
+      value == grid[row][col]
+      if value == -1:
+        bombs == bombs + 1
+        col == col + 1
+        continue
+      row == row + 1
+      col == 0  
+      continue
+    print(f"the number of bombs are {bombs}")
+
+  return 
+
+grid = [
+  [-1,1,1],
+  [1,1,0],
+  [0,0,0]
+]
+print (validate(grid))
