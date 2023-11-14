@@ -1,3 +1,4 @@
+# To help clairify some concepts in programming i asked my dad for help on this assignment (he does not know python) so together with his experiance in programming and my basic knowledge in python we cam up with this.
 # Validate a minesweeper interior block
 # block_data is a two dimensional array containing the data from a 3 x 3 grid of squares
 # We are assuming that we are only checking interior blocks for now
