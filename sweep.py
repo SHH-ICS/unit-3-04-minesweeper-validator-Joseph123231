@@ -10,7 +10,7 @@ def validate( block_data ):
 
 grid = [
   [0,0,0],
-  [1,1,0],
+  [1,3,0],
   [-1,1,0]
 ]
 
@@ -42,6 +42,6 @@ if middle_value == bombs:
 #    print(f"VALID")
     validation = "VALID"
 else:
-#    print(f"INVALID")
-    validation = "INVALID"
+#    print(f"INVALID CHECK INTERROIR BLOCK")
+    validation = "INVALID CHECK INTEROIR BLOCK"
 print (validate(grid))
