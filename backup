@@ -25,3 +25,15 @@ grid = [
   [0,0,0]
 ]
 print (validate(grid))
+
+
+#row = 1
+#col = 1 
+#print(row)
+#print(col)
+#value = grid [row][col]
+#print(value)
+
+
+#middle_value = grid [1][1]
+#print(middle_value)
