@@ -1,3 +1,5 @@
+# only here in case of a problem
+
 middle_value = grid [1][1]
   print(middle_value)
   row = 0
